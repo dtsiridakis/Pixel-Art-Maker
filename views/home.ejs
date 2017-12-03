@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="utf-8"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pixel Art Maker</title>
+	<!-- SAN FRANCISCO FONT -->
+	<link href="https://cdn.rawgit.com/mailtoharshit/San-Francisco-Font-/master/sanfrancisco.css" rel="stylesheet">
+	<!-- BOOTSTRAP LIBRARY -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- ANIMATE CSS LIBRARY -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="stylesheets/home.css">
+	<!-- JQUERY 3.2.1 -->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous">
+	</script>
+	<!-- FONTAWESOME LIBRARY -->
+	<script src="https://use.fontawesome.com/13e44111f0.js"></script>
+	<!-- CUSTOM JS -->
+	<script src="js/home.js"></script>
+</head>
+<body>
+	<!-- CONTAINER DIV WITH 12 ROWS RESPONSIVE FOR ALL SCREENS -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm text-center">
+				<h1 id="header">LAB</h1>
+				<h3 id="secondHeader">Pixel Art Maker Design</h3>
+				<h6 id="thirdHeader">Design inspirational thinks on our unique canvas</h6>
+			</div>
+		</div>
+		<!-- THE FORM STARTS HERE -->
+		<div class="main-content text-center">
+			<form action="#">
+				<h5>Choose grid size (1 ~ 39)</h5>
+				<div class="form-row">
+					<div class="col form-group">
+						<label for="height">Grid Height</label>
+						<input class="form-control" id="height" type="number" name="height" value="20" placeholder="Canvas Height">
+					</div>
+					<div class="col form-group">
+						<label for="width">Grid Width</label>
+						<input class="form-control" id="width" type="number" name="Width" value="20" 
+						placeholder="Canvas Width">
+					</div>
+				</div>
+				<button class="btn btn-outline-primary btn-lg">Submit</button>
+			</form>	
+			<form>
+				<div class="form-row">
+					<div class="col form-group">
+						<label for="color"><h5>Choose a color&nbsp&nbsp</h5></label>
+						<input id="color" type="color" name="color">
+					</div>
+				</div>
+			</form>
+			<h4>CANVAS</h4>
+			<!-- THE TABLE IS HERE -->
+			<div id="fade" class="container">
+				<table class="table table-bordered"></table>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

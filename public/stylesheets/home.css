@@ -1,0 +1,65 @@
+/*CUSTOM CSS FILE*/
+
+body {
+	font-family: 'San Francisco', sans-serif; /*ALL FONTS IN THE BODY*/
+	color: #333333; /*ALL COLOR FONTS IN THE BODY*/
+  background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome     26+, Opera 12+, Safari 7+ */
+
+}
+
+/* MAX WIDTH */
+/*.container {
+	max-width: 700px;
+}*/
+
+/*HEADER CUSTOMIZATION*/
+
+#header {
+	font-weight: 500;
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+}
+
+#secondHeader {
+	font-weight: 500;
+	margin: 0;
+}
+#thirdHeader {
+	font-weight: 100;
+	margin: 0.5em;
+	font-size: 2em;
+}
+
+h5 {
+	margin: 0;
+}
+
+
+/*FORM CUSTOMIZATION*/
+
+.main-content {
+	border-top: 1px solid #d6d6d6;
+}
+
+form {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/*TABLE CUSTOMIZATION*/
+
+.table-bordered,
+th,
+tr,
+td {
+	border: 1px solid grey;
+	max-width: 100px;
+	margin: 0 auto;
+}
